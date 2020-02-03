@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <column_name>condition</column_name>
+  <meta key="AP_ACQDATE" type="String" />
+  <meta key="AP_PENERGY" type="String" />
+  <meta key="AP_PCURRENT" type="String" />
+  <meta key="AP_SPC_ANAMOD" type="String" />
+  <meta key="AP_SPC_ES" type="String" />
+  <meta key="AP_SPC_WSTART" type="String" />
+  <meta key="AP_SPC_WSTOP" type="String" />
+  <meta key="AP_SPC_WSTEP" type="String" />
+  <meta key="AP_SPC_WDWELL" type="String" />
+  <meta key="AP_SPC_WSWEEPS" type="String" />
+  <meta key="AP_SPC_ROI_NAME" type="String" />
+  <meta key="AP_SPC_ROI_START" type="String" />
+  <meta key="AP_SPC_ROI_STOP" type="String" />
+  <meta key="AP_SPC_ROI_STEP" type="String" />
+  <meta key="AP_SPC_ROI_DWELL" type="String" />
+  <meta key="AP_SPC_ROI_SWEEPS" type="String" />
+  <meta key="AP_SPOSN_BSMOD" type="String" />
+  <meta key="AP_SPOSN_PDIA" type="String" />
+  <meta key="AP_SPOSN_BEAM_P1X" type="String" />
+  <meta key="AP_SPOSN_BEAM_P1Y" type="String" />
+  <meta key="AP_SPOSN_BEAM_P2X" type="String" />
+  <meta key="AP_SPOSN_BEAM_P2Y" type="String" />
+  <meta key="AP_STGTILT" type="String" />
+  <meta key="AP_COMMENT" type="String" />
+  <meta key="AP_OPERATOR" type="String" />
+  <meta key="AP_IGN_NEUT_MODE" type="String" />
+  <meta key="AP_DATATYPE" type="String" />
+  <meta key="AP_CHAMBER_PRESS" type="String" />
+  <meta key="AP_MAG" type="String" />
+  <meta key="AP_SPC_MESMOD" type="String" />
+  <meta key="AP_SPC_NCEM" type="String" />
+  <meta key="AP_SPC_CEMSTAT" type="String" />
+  <meta key="AP_SPC_ROI_NOFEXE" type="String" />
+  <meta key="AP_SPC_ROI_EXEMOD" type="String" />
+  <meta key="AP_SPOSN_EXENO" type="String" />
+  <meta key="AP_IGN_NEUT_IN_ACQ" type="String" />
+  <meta key="AP_IGN_N_BEAM_ENERGY" type="String" />
+  <meta key="AP_IGN_N_GASPRESSURE" type="String" />
+</template>
