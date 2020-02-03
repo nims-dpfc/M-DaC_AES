@@ -10,11 +10,13 @@ We hereby release the trial program, trial source code, and source data, etc. (h
  
  *M-DaC for XPS:*    https://nims-dpfc.github.io/M-DaC_doc/xps.html
 
-### Instruments (As of Jan. 30, 2019) 
+### Instruments (As of Feb. 03, 2020) 
 
- X-ray Photoelectron Spectroscopy (XPS)(ULVAC-PHI, Inc.)
+Auger Electron Spectroscopy (AES)(JEOL Ltd.)
 
- X-ray Diffraction (XRD)(Rigaku Corporation)
+X-ray Photoelectron Spectroscopy (XPS)(ULVAC-PHI, Inc.)
+
+X-ray Diffraction (XRD)(Rigaku Corporation)
 
 
 
