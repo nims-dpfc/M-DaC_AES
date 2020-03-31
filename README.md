@@ -10,7 +10,7 @@ We hereby release the trial program, trial source code, and source data, etc. (h
  
  *M-DaC for XPS:*    https://nims-dpfc.github.io/M-DaC_doc/xps.html
 
-### Instruments (As of Feb. 03, 2020) 
+### Instruments (As of May 1, 2020) 
 
 Auger Electron Spectroscopy (AES)(JEOL Ltd.)
 
