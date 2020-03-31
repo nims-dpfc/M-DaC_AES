@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<metadata>
+	<column_name>condition</column_name>
+	<column_num>2</column_num>
+	<meta key="AP_SYSTEM_ID" type="String">AES-5.30</meta>
+	<meta key="AP_DATATYPE" type="String">4</meta>
+	<meta key="AP_ACQDATE" type="String">20160408193936</meta>
+	<meta key="AP_PENERGY" type="String">10.00</meta>
+	<meta key="AP_PCURRENT" type="String">1.989 8</meta>
+	<meta key="AP_CLCOARSE" type="String">1</meta>
+	<meta key="AP_CLFINE" type="String">105</meta>
+	<meta key="AP_OLAPERT" type="String">4</meta>
+	<meta key="AP_MAG" type="String">3000</meta>
+	<meta key="AP_CHAMBER_PRESS" type="String">1.20 7</meta>
+	<meta key="AP_SPC_ANAMOD" type="String">5</meta>
+	<meta key="AP_SPC_ES" type="String">10</meta>
+	<meta key="AP_SPC_MESMOD" type="String">3</meta>
+	<meta key="AP_SPC_NCEM" type="String">7</meta>
+	<meta key="AP_SPC_CEMSTAT" type="String">0 1 1 1 1 1 1 1 0</meta>
+	<meta key="AP_SPC_SELDMOD" type="String">2</meta>
+	<meta key="AP_SPC_DMOD" type="String">1</meta>
+	<meta key="AP_SPC_PCCEMHV" type="String">2300</meta>
+	<meta key="AP_SPC_VFCEMHV" type="String">0</meta>
+	<meta key="AP_SPC_SCANMETHOD" type="String">1</meta>
+	<meta key="AP_SPC_DISPWIDTH" type="String">0.00</meta>
+	<meta key="AP_SPC_ACQMOD" type="String">1</meta>
+	<meta key="AP_SPC_ROI_TBLNAME" type="String">int10kV.ROI</meta>
+	<meta key="AP_SPC_ROI_NOFEXE" type="String">2</meta>
+	<meta column="1" key="AP_SPC_ROI_EXEMOD" type="String">1 1</meta>
+	<meta column="2" key="AP_SPC_ROI_EXEMOD" type="String">2 1</meta>
+	<meta column="1" key="AP_SPC_ROI_NAME" type="String">1 CuLMM</meta>
+	<meta column="2" key="AP_SPC_ROI_NAME" type="String">2 AlKLL</meta>
+	<meta column="1" key="AP_SPC_ROI_START" type="String">1 670.00</meta>
+	<meta column="2" key="AP_SPC_ROI_START" type="String">2 1250.00</meta>
+	<meta column="1" key="AP_SPC_ROI_STOP" type="String">1 970.00</meta>
+	<meta column="2" key="AP_SPC_ROI_STOP" type="String">2 1450.00</meta>
+	<meta column="1" key="AP_SPC_ROI_STEP" type="String">1 0.10</meta>
+	<meta column="2" key="AP_SPC_ROI_STEP" type="String">2 0.10</meta>
+	<meta column="1" key="AP_SPC_ROI_POINTS" type="String">1 3001</meta>
+	<meta column="2" key="AP_SPC_ROI_POINTS" type="String">2 2001</meta>
+	<meta column="1" key="AP_SPC_ROI_DWELL" type="String">1 50</meta>
+	<meta column="2" key="AP_SPC_ROI_DWELL" type="String">2 50</meta>
+	<meta column="1" key="AP_SPC_ROI_SWEEPS" type="String">1 30</meta>
+	<meta column="2" key="AP_SPC_ROI_SWEEPS" type="String">2 50</meta>
+	<meta column="1" key="AP_SPC_ROI_ACQRSF" type="String">1 0.532</meta>
+	<meta column="2" key="AP_SPC_ROI_ACQRSF" type="String">2 1.000</meta>
+	<meta key="AP_SPC_ACQTIME" type="String">0</meta>
+	<meta key="AP_SPOSN_EXENO" type="String">1</meta>
+	<meta key="AP_SPOSN_NOFEXE" type="String">1</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">1 1</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">2 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">3 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">4 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">5 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">6 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">7 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">8 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">9 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">10 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">11 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">12 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">13 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">14 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">15 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">16 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">17 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">18 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">19 0</meta>
+	<meta key="AP_SPOSN_EXEMOD" type="String">20 0</meta>
+	<meta key="AP_SPOSN_NAME" type="String">1 POSN1</meta>
+	<meta key="AP_SPOSN_BSMOD" type="String">1 1</meta>
+	<meta key="AP_SPOSN_PDIA" type="String">1 0</meta>
+	<meta key="AP_SPOSN_BEAMX" type="String">1 -7</meta>
+	<meta key="AP_SPOSN_BEAMY" type="String">1 -10</meta>
+	<meta key="AP_SPOSN_RESOLN" type="String">1 128</meta>
+	<meta key="AP_SPOSN_BEAM_P1X" type="String">1 0</meta>
+	<meta key="AP_SPOSN_BEAM_P1Y" type="String">1 0</meta>
+	<meta key="AP_SPOSN_BEAM_P2X" type="String">1 63</meta>
+	<meta key="AP_SPOSN_BEAM_P2Y" type="String">1 -63</meta>
+	<meta key="AP_SPOSN_PIXELS_X" type="String">1 128</meta>
+	<meta key="AP_SPOSN_PIXELS_Y" type="String">1 128</meta>
+	<meta key="AP_STGTILT" type="String">0.0</meta>
+	<meta key="AP_SPC_FORM" type="String">0</meta>
+	<meta key="AP_COMMENT" type="String">Al-Cu intermetallic compo. 10kV M5 data034(SEM-Center)</meta>
+	<meta key="AP_OPERATOR" type="String">Ogiwara</meta>
+	<meta key="AP_IGN_ETCHING_CHANNEL" type="String">2</meta>
+	<meta key="AP_IGN_NEUTRALIZING_CHANNEL" type="String">-1</meta>
+	<meta key="AP_IGN_ETCHING_MODE" type="String">1</meta>
+	<meta key="AP_IGN_ETCHING_TIME" type="String">120</meta>
+	<meta key="AP_IGN_RELAXATION_TIME" type="String">1</meta>
+	<meta key="AP_IGN_NEUT_PRE_WAITING_TIME" type="String">0</meta>
+	<meta key="AP_IGN_NEUT_MODE" type="String">1</meta>
+	<meta key="AP_IGN_NEUT_IN_ACQ" type="String">2</meta>
+	<meta key="AP_IGN_SYSTEM_CONDITION_FILE" type="String">/users/auger/config/default.ccf</meta>
+	<meta key="AP_IGN_USER_CONDITION_FILE" type="String">/home/aes/.apconf/201601.ccf</meta>
+	<meta key="AP_IGN_N_BEAM_ENERGY" type="String">0</meta>
+	<meta key="AP_IGN_N_TILTING_ANGLE" type="String">0</meta>
+	<meta key="AP_IGN_N_RATE" type="String">0</meta>
+</metadata>
+
