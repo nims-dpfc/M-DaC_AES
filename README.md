@@ -12,12 +12,13 @@ We hereby release the trial program, trial source code, and source data, etc. (h
 
 ### Instruments (As of May 1, 2020) 
 
-Auger Electron Spectroscopy (AES)(JEOL Ltd.)
-
 X-ray Photoelectron Spectroscopy (XPS)(ULVAC-PHI, Inc.)
 
 X-ray Diffraction (XRD)(Rigaku Corporation)
 
+Auger Electron Spectroscopy (AES)(JEOL Ltd.)
+
+Photoemission Yield Spectroscopy in Air (PYSA)（RIKEN KEIKI Co.,Ltd.）
 
 
 ### Environment
@@ -55,7 +56,7 @@ X-ray Diffraction (XRD)(Rigaku Corporation)
 
 Ex)
 
-H. Nagao, M. Suzuki, H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC)", 2018, (https://github.com/nims-dpfc/M-DaC_XPS   or   https://github.com/nims-dpfc/M-DaC_XRD)
+H. Nagao, S. Matsunami, Y. Harada, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
 
 
 
@@ -68,3 +69,8 @@ National Institutes for Materials Science
   Research and Services Division of Materials Data and Integrated System (MaDIS), Materials Data Platform Center
 
   Materials Data Analysis Group (M-DaC in charge) E-mail: m-dac@ml.nims.go.jp
+
+
+2019.1.30 1st Ed.
+2020.4.1  2nd Ed.
+
