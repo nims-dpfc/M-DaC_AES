@@ -114,7 +114,7 @@ if __name__ == "__main__":
         init_notebook_mode(connected=True)
 
     xaxis = "Kinetic energy" + " (eV)"
-    yaxis = "Intensity" + " (counts)"
+    yaxis = "Intensity" + " (counts/dwell time)"
     data_jupyter = []
     splitFlag = 0
 
