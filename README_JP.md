@@ -8,19 +8,17 @@
 
   <https://nims-dpfc.github.io/M-DaC_XPS/xrd.html>
 
-### 対象装置およびメーカ　（2019年1月30日現在）
+### 対象装置およびメーカー　（2020年5月1日現在）
 
 * X線光電子分光/ X-ray Photoelectron Spectroscopy（XPS）（アルバック・ファイ株式会社）
 * X線回折/ X-ray Diffraction (XRD)（株式会社リガク）
-
-
+* オージェ電子分光/ Auger electron spectroscopy (AES)（日本電子株式会社）
+* 大気中光電子収量分光/ Photoemission Yield Spectroscopy in Air (PYSA)（理研計器株式会社）
 
 ### 動作環境
 
 * python 3.X
 * Jupyter Notebook (http://jupyter.org/)
-
-
 
 ### 操作方法
 
@@ -44,11 +42,11 @@
 
 日本語引用文例）　
 
-長尾浩子, 鈴木峰晴, 吉川英樹：”NIMS Materials Data Conversion Tools (M-DaC)”, 2018 (https://github.com/nims-dpfc/M-DaC_XPS   or   https://github.com/nims-dpfc/M-DaC_XRD)
+長尾浩子, 松波成行, 原田 善之, 鈴木峰晴, 吉川英樹：”NIMS Materials Data Conversion Tools (M-DaC) ver 1.1”
 
 英語引用文例）
 
-H. Nagao, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC)", 2018, (https://github.com/nims-dpfc/M-DaC_XPS   or   https://github.com/nims-dpfc/M-DaC_XRD)
+H. Nagao, S. Matsunami, Y. Harada, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
 
 
 
@@ -63,3 +61,7 @@ H. Nagao, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-
  　統合型材料開発・情報基盤部門 材料データプラットフォームセンター　
 
 　 M-DaC代表窓口  E-mail: m-dac@ml.nims.go.jp
+
+
+2019.1.30 初版
+2020.4.1　改定
