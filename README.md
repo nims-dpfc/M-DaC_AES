@@ -8,17 +8,15 @@ We hereby release the trial program, trial source code, and source data, etc. (h
 
  *M-DaC Tutorial:*   https://nims-dpfc.github.io/M-DaC_doc
  
- *M-DaC for XPS:*    https://nims-dpfc.github.io/M-DaC_doc/xps.html
+ *M-DaC for AES:*    https://nims-dpfc.github.io/M-DaC_doc/aes_jeol.html
 
-### Instruments (As of May 1, 2020) 
+### Instruments (As of April 10, 2020) 
 
 X-ray Photoelectron Spectroscopy (XPS)(ULVAC-PHI, Inc.)
 
 X-ray Diffraction (XRD)(Rigaku Corporation)
 
 Auger Electron Spectroscopy (AES)(JEOL Ltd.)
-
-Photoemission Yield Spectroscopy in Air (PYSA)（RIKEN KEIKI Co.,Ltd.）
 
 
 ### Environment
@@ -32,7 +30,7 @@ Photoemission Yield Spectroscopy in Air (PYSA)（RIKEN KEIKI Co.,Ltd.）
 ### Method
 
 * After downloading the set to the working directory, please try a series of flows with sample data of the following tutorial.<br />
- https://nims-dpfc.github.io/M-DaC_doc/xps.html
+ https://nims-dpfc.github.io/M-DaC_doc/aes_jeol.html
 
 * If you have data on hand of each manufacturer, you can proceed in the same way.
 
@@ -56,7 +54,7 @@ Photoemission Yield Spectroscopy in Air (PYSA)（RIKEN KEIKI Co.,Ltd.）
 
 Ex)
 
-H. Nagao, S. Matsunami, Y. Harada, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
+H. Nagao, S. Matsunami, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
 
 
 
@@ -72,5 +70,5 @@ National Institutes for Materials Science
 
 
 2019.1.30 1st Ed.
-2020.4.1  2nd Ed.
+2020.4.10  2nd Ed.
 

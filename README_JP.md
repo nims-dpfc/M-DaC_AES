@@ -6,14 +6,13 @@
 
 ### チュートリアル
 
-  <https://nims-dpfc.github.io/M-DaC_XPS/xrd.html>
+  <https://nims-dpfc.github.io/M-DaC_doc/ase_jeol.html>
 
-### 対象装置およびメーカー　（2020年5月1日現在）
+### 対象装置およびメーカー　（2020年4月10日現在）
 
 * X線光電子分光/ X-ray Photoelectron Spectroscopy（XPS）（アルバック・ファイ株式会社）
 * X線回折/ X-ray Diffraction (XRD)（株式会社リガク）
 * オージェ電子分光/ Auger electron spectroscopy (AES)（日本電子株式会社）
-* 大気中光電子収量分光/ Photoemission Yield Spectroscopy in Air (PYSA)（理研計器株式会社）
 
 ### 動作環境
 
@@ -23,7 +22,7 @@
 ### 操作方法
 
 * 作業ディレクトリに一式をダウンロードしてから、以下のチュートリアルのサンプルデータで一連のフローを試してください。<br />
- https://nims-dpfc.github.io/M-DaC_XPS/xrd.html
+ https://nims-dpfc.github.io/M-DaC_doc/aes_jeol.html
 * 各メーカーのお手持ちのデータがあれば、同様に処理を進めることができます。
 
 
@@ -42,11 +41,11 @@
 
 日本語引用文例）　
 
-長尾浩子, 松波成行, 原田 善之, 鈴木峰晴, 吉川英樹：”NIMS Materials Data Conversion Tools (M-DaC) ver 1.1”
+長尾浩子, 松波成行, 鈴木峰晴, 吉川英樹：”NIMS Materials Data Conversion Tools (M-DaC) ver 1.1”
 
 英語引用文例）
 
-H. Nagao, S. Matsunami, Y. Harada, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
+H. Nagao, S. Matsunami, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conversion Tools (M-DaC) ver 1.1"
 
 
 
@@ -64,4 +63,4 @@ H. Nagao, S. Matsunami, Y. Harada, M. Suzuki, and H. Yoshikawa: "NIMS Materials 
 
 
 2019.1.30 初版
-2020.4.1　改定
+2020.4.10　改定
