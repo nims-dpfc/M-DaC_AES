@@ -6,7 +6,7 @@
 
 ### チュートリアル
 
-  <https://nims-dpfc.github.io/M-DaC_doc/ase_jeol.html>
+  <https://nims-dpfc.github.io/M-DaC_doc/aes_jeol.html>
 
 ### 対象装置およびメーカー　（2020年4月10日現在）
 
@@ -62,5 +62,5 @@ H. Nagao, S. Matsunami, M. Suzuki, and H. Yoshikawa: "NIMS Materials Data Conver
 　 M-DaC代表窓口  E-mail: m-dac@ml.nims.go.jp
 
 
-2019.1.30 初版
+2019.1.30 初版  
 2020.4.10　改定
