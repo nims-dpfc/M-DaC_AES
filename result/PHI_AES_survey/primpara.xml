@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<meta key="Technique" type="String">AES</meta>
+	<meta key="Experiment_mode" type="String">SPECTRUM</meta>
+	<meta key="File_name" type="String">Au_foil2.spe</meta>
+	<meta key="EBeamEnergy" type="Quantity" unit="keV">10.0</meta>
+	<meta key="EBeamCurrent" type="Quantity" unit="A">1.035171e-08</meta>
+	<meta key="EBeamDiameter" type="Quantity" unit="nm">0.00</meta>
+	<meta key="Magnification" type="Numeric">10000.0</meta>
+	<meta key="Source_analyser_angle_for_AES" type="Quantity" unit="deg">0.0</meta>
+	<meta key="Analyser_mode" type="String">FRR</meta>
+	<meta key="Analyser_work_function" type="Quantity" unit="eV">4.5</meta>
+	<meta key="Sputtering_Raster_Area" type="Quantity" unit="um">0.0x0.0</meta>
+	<meta key="NoSpectralReg" type="Numeric">1</meta>
+	<meta key="NoSpatialArea" type="Numeric">1</meta>
+	<meta key="Element_and_transition" type="String">Sur1</meta>
+	<meta key="Abscissa_increment" type="Quantity" unit="eV">1.0000</meta>
+	<meta key="Abscissa_start" type="Quantity" unit="eV">0.0</meta>
+	<meta key="Abscissa_end" type="Quantity" unit="eV">2400.0</meta>
+	<meta key="Collection_time" type="Quantity" unit="s">0.200000</meta>
+	<meta key="Mode_of_signal_detection" type="String">none</meta>
+	<column_num>1</column_num>
+	<column_name>condition</column_name>
+</metadata>

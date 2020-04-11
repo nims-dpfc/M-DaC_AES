@@ -16,7 +16,7 @@ X-ray Photoelectron Spectroscopy (XPS)(ULVAC-PHI, Inc.)
 
 X-ray Diffraction (XRD)(Rigaku Corporation)
 
-Auger Electron Spectroscopy (AES)(JEOL Ltd.)
+Auger Electron Spectroscopy (AES)(JEOL Ltd. and ULVAC-PHI, Inc.)
 
 
 ### Environment

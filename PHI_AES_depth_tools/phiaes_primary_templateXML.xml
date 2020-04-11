@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <column_name>condition</column_name>
+  <meta key="Technique" type="String"/>
+  <meta key="Experiment_mode" type="String" />
+  <meta key="Instrument_model_identifier" type="String"/>
+  <meta key="File_name" type="String"/>
+  <meta key="Year" type="Numeric"/>
+  <meta key="Month" type="Numeric"/>
+  <meta key="Day" type="Numeric"/>
+  <meta key="Institution_identifier" type="String"/>
+  <meta key="Experiment_Identifier" type="String"/>
+  <meta key="EBeamEnergy" type="Quantity" unit="kV"/>
+  <meta key="EBeamCurrent" type="Quantity" unit="nA"/>
+  <meta key="EBeamDiameter" type="Quantity" unit="nm"/>
+  <meta key="SemFieldOfView" type="Quantity" unit="um"/>
+  <meta key="Magnification" type="Numeric"/>
+  <meta key="Source_analyser_angle_for_AES" type="Quantity" unit="deg"/>
+  <meta key="Analyser_mode" type="String"/>
+  <meta key="Analyser_work_function" type="Quantity" unit="eV"/>
+  <meta key="Analyser_acceptance_solid_angle" type="Quantity" unit="sr"/>
+  <meta key="NeutralizerCurrent" type="Quantity" unit="uA"/>
+  <meta key="NeutralizerEnergy" type="Quantity" unit="eV"/>
+  <meta key="AutoIonNeut" type="String"/>
+  <meta key="Specimen_Stage_Rotation_Setting_During_Sputtering" type="String"/>
+  <meta key="Sputtering_Raster_Area" type="Quantity" unit="mm"/>
+  <meta key="NoPreSputterCyc" type="Numeric"/>
+  <meta key="SputterInterval" type="Quantity" unit="s"/>
+  <meta key="SputterMode" type="String"/>
+  <meta key="Measurement_Acquisition_Number" type="Numeric"/>
+  <meta key="NoDPDataCyc" type="Numeric"/>
+  <meta key="NoSpectralReg" type="Numeric"/>
+  <meta key="NoSpatialArea" type="Numeric"/>
+  <meta key="Element_and_transition" type="String"/>
+  <meta key="Abscissa_increment" type="Quantity" unit="eV"/>
+  <meta key="Abscissa_start" type="Quantity" unit="eV"/>
+  <meta key="Abscissa_end" type="Quantity" unit="eV"/>
+  <meta key="Collection_time" type="Quantity" unit="s"/>
+  <meta key="Mode_of_signal_detection" type="String"/>
+  <meta key="Peak_Sweep_Number" type="String"/>
+  <meta key="Comment" type="String"/>
+</template>

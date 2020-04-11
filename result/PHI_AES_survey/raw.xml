@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<meta key="Platform" type="String">PC</meta>
+	<meta key="Technique" type="String">AES</meta>
+	<meta key="FileType" type="String">SPECTRUM</meta>
+	<meta key="FileDesc" type="String"></meta>
+	<meta key="FileDate" type="String">117 5 15</meta>
+	<meta key="AcqFileDate" type="String">117 5 15</meta>
+	<meta key="AcqFilename" type="String">Au_foil2.spe</meta>
+	<meta key="EBeamEnergy" type="String">10.0 keV</meta>
+	<meta key="EBeamCurrent" type="String">1.035171e-08 A</meta>
+	<meta key="EBeamDiameter" type="String">0.00 nm</meta>
+	<meta key="SourceAnalyserAngle" type="String">0.0 d</meta>
+	<meta key="AnalyserMode" type="String">FRR</meta>
+	<meta key="AnalyserWorkFcn" type="String">4.5 eV</meta>
+	<meta key="SputterRaster" type="String">0.0 0.0 um</meta>
+	<meta key="PreAcqSputterTime" type="String">0 s</meta>
+	<meta key="PreAcqSputterRate" type="String">1.0 A/s</meta>
+	<meta key="NoSpectralReg" type="String">1</meta>
+	<meta key="SpectralRegDef" type="String">1 1 Sur1 111 2401 1.0000 0.0 2400.0 0.0 2400.0 0.200000 0.00 none</meta>
+	<meta key="Magnification" type="String">10000.0</meta>
+	<meta key="NoSpatialArea" type="String">1</meta>
+	<meta key="SpatialAreaDef" type="String">1 Full 1 (0.0 0.0 0.0 0.0 0.0)</meta>
+	<meta key="ImageSizeXY" type="String">invalid XrayBeamDiameter</meta>
+	<column_num>1</column_num>
+	<column_name>condition</column_name>
+</metadata>

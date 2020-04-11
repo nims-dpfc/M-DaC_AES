@@ -153,8 +153,10 @@ if __name__ == "__main__":
                 data_jupyter.append(trace)
         if splitFlag == 1:
             plt.legend()
+        plt.show()
         writefile = name + '.png'
         plt.savefig(writefile)
     plt.close('all')
-    if jupytermode == True:
-        plotlygraph(name, data_jupyter, fig, xaxis, yaxis)
+    
+if jupytermode == True:
+    plotlygraph(name, data_jupyter, fig, xaxis, yaxis)
