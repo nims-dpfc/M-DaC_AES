@@ -31,63 +31,6 @@ def getKey(key, row):
     else:
         return 0
 
-def plotlygraph(xrevFlag, yrevFlag, title, data, fig):
-    x_axis = 'false'
-    y_axis = 'false'
-    if xrevFlag:
-        x_axis = 'reversed'
-    if yrevFlag:
-        y_axis = 'reversed'
-
-    layout = dict(
-        width=800,
-        height=700,
-        autosize=False,
-        title=title,
-        xaxis=dict(title=xaxis, autorange=x_axis),
-        yaxis=dict(title=yaxis, autorange=y_axis),
-        showlegend=True
-    )
-
-    fig = dict(data=data, layout=layout)
-    iplot(fig, show_link=False, filename=title, validate=False, config={"displaylogo":False, "modeBarButtonsToRemove":["sendDataToCloud"]})
-
-def plotlygraph3D(xrevFlag, yrevFlag, zrevFlag, title, data, fig):
-    x_axis = 'false'
-    y_axis = 'false'
-    z_axis = 'false'
-    if xrevFlag:
-        x_axis = 'reversed'
-    if yrevFlag:
-        y_axis = 'reversed'
-    if zrevFlag:
-        z_axis = 'reversed'
-
-    layout = dict(
-            width=800,
-            height=700,
-            autosize=False,
-            title=title,
-            scene = dict(
-                    xaxis = dict(
-                        title=df_head.loc['z','spectra'],
-                        autorange=x_axis),
-                    yaxis = dict(
-                        title=df_head.loc['x','spectra'],
-                        autorange=y_axis),
-                    zaxis = dict(
-                        title=df_head.loc['y','spectra'],
-                        autorange=z_axis),
-                    camera = dict(
-                        up=dict(x=0, y=0, z=1),
-                        center=dict(x=0, y=0, z=0),
-                        eye=dict(x=2.5, y=0.1, z=0.1)
-                    ),
-            ),  
-    )
-
-    fig = dict(data=data, layout=layout)
-    iplot(fig, show_link=False, filename=title, validate=False, config={"displaylogo":False, "modeBarButtonsToRemove":["sendDataToCloud"]})
 
 parser = argparse.ArgumentParser()
 parser.add_argument("file_path")
@@ -374,7 +317,7 @@ emptyoffset = 0
 fig = plt.figure() #プロット領域の作成
 ax3all = fig.gca(projection='3d')
 writefile = name + '_speall_3d.png'
-data2 = []
+
 for atom in titleList:
     s_col = startline[index] - offset - emptyoffset
     e_col = endline[index] - offset + 1 - emptyoffset
@@ -395,12 +338,7 @@ for atom in titleList:
         ax3all.plot(x, y, zs=lasttime, zdir='y')
         lst = [lasttime] * len(x)
         z_d = pd.Series(lst)
-        trace = dict(
-            name = atom,
-            x = z_d, y = x_d, z = y_d,
-            type = "scatter3d",    
-            mode = 'lines')
-        data2.append( trace )
+  
     index += 1
 if xrev:
     ax3all.invert_xaxis()
@@ -446,22 +384,4 @@ plt.legend()
 plt.savefig(writefile)
 num = 1
 data = []
-if jupytermode == True:
-    for col in df3.columns:
-        trace = dict(
-            name = col,
-            x = df3['Sputter Time'], y = df3[col],
-            type = "lines",
-            mode = 'lines')
-        if num > 1:
-            data.append( trace )
-        num += 1
 plt.close()
-
-if jupytermode == True:
-    plotlygraph("", "", title, data, fig)
-if jupytermode == True:
-    if xrev:
-        plotlygraph3D(True, True, "", title, data2, fig)
-    else:
-        plotlygraph3D(True, False, "", title, data2, fig)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<meta key="Platform" type="String">PC</meta>
+	<meta key="Technique" type="String">AES</meta>
+	<meta key="FileType" type="String">DEPTHPRO</meta>
+	<meta key="FileDate" type="String">2009 6 9</meta>
+	<meta key="AcqFileDate" type="String">2009 6 9</meta>
+	<meta key="AcqFilename" type="String">C:\Datafiles\ULVAC-PHI\090609\27.pro</meta>
+	<meta key="SampleRotation" type="String">off</meta>
+	<meta key="FileDesc" type="String">No Comment</meta>
+	<meta key="SemFieldOfView" type="String">50.0000007</meta>
+	<meta key="EBeamEnergy" type="String">10.0 kV</meta>
+	<meta key="EBeamCurrent" type="String">0.0</meta>
+	<meta key="SputterRaster" type="String">2.00 2.00 mm</meta>
+	<meta key="AnalyserMode" type="String">FRR</meta>
+	<meta key="NoDPDataCyc" type="String">14</meta>
+	<meta key="NoPreSputterCyc" type="String">2</meta>
+	<meta key="SputterInterval" type="String">0.500 s</meta>
+	<meta key="SputterMode" type="String">alt</meta>
+	<meta key="NoSpectralReg" type="String">3</meta>
+	<meta column="1" key="SpectralRegDef" type="String">1 1 C1 6 61 1.0000 231.0 291.0 249.0 283.0 0.100000 0.00 none</meta>
+	<meta column="1" key="SpectralRegDef2" type="String">1 60.0 5 8 0</meta>
+	<meta column="2" key="SpectralRegDef" type="String">2 2 O1 8 61 1.0000 472.0 532.0 490.0 524.0 0.100000 0.00 none</meta>
+	<meta column="2" key="SpectralRegDef2" type="String">2 60.0 5 8 0</meta>
+	<meta column="3" key="SpectralRegDef" type="String">3 3 Si1 14 61 1.0000 58.0 118.0 76.0 110.0 0.100000 0.00 none</meta>
+	<meta column="3" key="SpectralRegDef2" type="String">3 60.0 5 8 0</meta>
+	<meta key="ImageSizeXY" type="String">NO_INFO</meta>
+	<column_num>3</column_num>
+	<column_name>condition</column_name>
+</metadata>
