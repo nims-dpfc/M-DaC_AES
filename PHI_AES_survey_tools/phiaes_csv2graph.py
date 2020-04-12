@@ -6,10 +6,7 @@
 # This software is released under the MIT License.
 #-------------------------------------------------
 # coding: utf-8
-# 
-# # To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
+
 
 __author__ = "nagao"
 __date__ = "$2017/03/21 11:16:02$"
@@ -147,8 +144,7 @@ with open(readfile, 'r') as f:
         else:
             break
 
-with codecs.open(readfile, 'r', 'utf-8', 'ignore') as f:
-    df = pd.read_csv(f, skiprows=line, header=None)
+df = pd.read_csv(readfile, skiprows=line, header=None)
 num_columns = len(df.columns)
 
 if (len(legends) * len(axis) == num_columns):
@@ -177,7 +173,7 @@ plt.subplots_adjust(left=0.155, bottom=0.155, right=0.95, top=0.9, wspace=None, 
 
 
 num = 1
-data=[]
+data =[]
 for col in df.columns:
     if num % dimension != 0:
         if isinstance(scale_option, list):
@@ -226,7 +222,6 @@ plt.close()
 if len(legends) > 1:
     num = 1
     for col in df.columns:
-        plt.figure()
         if num % dimension != 0:
             x=df[col]
         else:
@@ -256,7 +251,6 @@ if len(legends) > 1:
             plt.rcParams['ytick.major.width'] = 1.0
             plt.rcParams['axes.linewidth'] = 1.0
             plt.legend()
-            plt.show()
             writefile = name + '_' + col + '.png'
             plt.savefig(writefile)
             plt.close()
