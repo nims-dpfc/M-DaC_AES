@@ -7,7 +7,7 @@
 2. Data and articles within the Program with “CC-BY-NC” in the License field may be used under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
 
-   2.2.Trial source code within the Program with “MIT License” in the License field may be used under the MIT License as indicated separately in LICENSE.txt. 
+   2.2.Trial source code within the Program with “MIT License” in the License field may be used under the MIT License as indicated separately in LICENSE.txt. In addition, testing programs by ULVAC-PHI Inc. and JEOL Ltd. may be used within the scope of the "License Agreement_" and "Software License Agreement" separately provided.
 
    2.3.NIMS is not responsible for any actions committed by users by means of the Program.
 
@@ -29,4 +29,6 @@
 
 National Institute for Materials Science (NIMS)
 
-Last updated: January 30, 2019
+First Ed.: January 30, 2019
+Last updated: April 16, 2020
+
