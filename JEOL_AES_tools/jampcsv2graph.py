@@ -116,26 +116,22 @@ if __name__ == "__main__":
     xaxis = "Kinetic energy" + " (eV)"
     yaxis = "Intensity" + " (counts/dwell time)"
     data_jupyter = []
-    splitFlag = 0
 
     with codecs.open(readfile, 'r', encoding_option, 'ignore') as f:
         lines = f.read()
 
         blocks = lines.split("\r\n\r\n")
-        if len(blocks) > 1:
-            splitFlag = 1
-        if splitFlag == 1:
-            for i, block in enumerate(blocks):
-                data = [line.split(",") for line in block.splitlines()]
-                if i == 0:
-                    data.pop(0)
-                df = pd.DataFrame(data)
-                colname = 'block' + str(i)
-                title = name + '_' + colname
-                makegraph(df, xaxis, yaxis, colname, title)
+        for i, block in enumerate(blocks):
+            data = [line.split(",") for line in block.splitlines()]
+            if i == 0:
+                data.pop(0)
+            df = pd.DataFrame(data)
+            colname = 'block' + str(i)
+            title = name + '_' + colname
+            makegraph(df, xaxis, yaxis, colname, title)
 
         fig = plt.figure()
-        graphSetting(xaxis, yaxis, 'no_name', name)
+        graphSetting(xaxis, yaxis, colname, name)
         for i, block in enumerate(blocks):
             data = [line.split(",") for line in block.splitlines()]
             if i == 0:
@@ -151,12 +147,10 @@ if __name__ == "__main__":
                     type = "lines",
                     mode = 'lines')
                 data_jupyter.append(trace)
-        if splitFlag == 1:
-            plt.legend()
-        plt.show()
+
+        plt.legend()
         writefile = name + '.png'
         plt.savefig(writefile)
     plt.close('all')
-    
-if jupytermode == True:
-    plotlygraph(name, data_jupyter, fig, xaxis, yaxis)
+    if jupytermode == True:
+        plotlygraph(name, data_jupyter, fig, xaxis, yaxis)
