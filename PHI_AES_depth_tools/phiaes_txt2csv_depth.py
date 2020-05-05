@@ -6,6 +6,28 @@
 # This software is released under the MIT License.
 # -------------------------------------------------
 # coding: utf-8
+#__author__ = "nagao"
+
+"""phiaes_txt2csv.py
+
+This module extracts csv data file from
+PHI AES text file.
+
+Copyright (c) 2018, Data PlatForm Center, NIMS
+This software is released under the MIT License.
+
+Example
+-------
+
+    Parameters
+    ----------
+    inputfile : PHI AES text file
+    templatefile : template file for PHI AES raw Data
+    outputfile : output file (csv)
+
+    $ python phiaes_txt2csv.py [inputfile] [outputfile]
+
+"""
 
 from __future__ import print_function
 from __future__ import unicode_literals
@@ -249,7 +271,7 @@ writefile = name + '.csv'
 with open(writefile, 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(header)
-    writer.writerows(header_depth)    
+    writer.writerows(header_depth)
     for i, j in enumerate(allData):
         writer.writerow(zaxis)
         writer.writerows(j)

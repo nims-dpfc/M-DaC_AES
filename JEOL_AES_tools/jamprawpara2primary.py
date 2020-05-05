@@ -1,12 +1,14 @@
 # -------------------------------------------------
-# rawtoprimaryXML_for_AES.py
+# jamprawpara2primary.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #
 # This software is released under the MIT License.
 # -------------------------------------------------
 # coding: utf-8
-"""rawtoprimaryXML_for_AES.py
+#__author__ = "nagao"
+
+"""jamprawpara2primary.py
 
 This module extracts primary parameter from
 JEOL para file.
@@ -19,11 +21,11 @@ Example
 
     Parameters
     ----------
-    inputfile : raw parameter file
-    templatefile : primary template file for JEOL para file
-    outputfile : output file
+    inputfile : JEOL JAMP AES raw parameter file (XML)
+    templatefile : template file for JEOL JAMP AES primary parameter data
+    outputfile : output file (primary parameter file (XML))
 
-    $ python rawtoprimaryXML_for_AES.py [inputfile] [templatefile] [outputfile]
+    $ python jamprawpara2primary.py [inputfile] [templatefile] [outputfile]
 
 """
 import argparse
@@ -93,7 +95,7 @@ def registdf(key, channel, value, metadata, unitlist, template):
                         value = arrayvalue[1]
                 elif key == "Number_of_scans":
                     if datatype == "4":
-                        value = arrayvalue[1]                        
+                        value = arrayvalue[1]
                 elif key == "Probe_scan_mode":
                     if arrayvalue[1] == "1":
                         value = "Spot"
@@ -211,7 +213,7 @@ if __name__ == "__main__":
   parser.add_argument("file_path")
   parser.add_argument("template_file")
   parser.add_argument("out_file")
-  parser.add_argument("--stdout", action="store_true")  
+  parser.add_argument("--stdout", action="store_true")
   options = parser.parse_args()
   readfile = options.file_path
   templatefile = options.template_file
@@ -235,7 +237,7 @@ if __name__ == "__main__":
   count = 0;
 
   metalist = {
-            "Operator_identifier":"AP_OPERATOR",      
+            "Operator_identifier":"AP_OPERATOR",
             "Year":"AP_ACQDATE",
             "Month":"AP_ACQDATE",
             "Day":"AP_ACQDATE",
@@ -263,11 +265,11 @@ if __name__ == "__main__":
             "Upper_left_x_coordinate":"AP_SPOSN_BEAM_P1X",
             "Upper_left_y_coordinate":"AP_SPOSN_BEAM_P1Y",
             "Lower_right_x_coordinate":"AP_SPOSN_BEAM_P2X",
-            "Lower_right_y_coordinate":"AP_SPOSN_BEAM_P2Y",            
+            "Lower_right_y_coordinate":"AP_SPOSN_BEAM_P2Y",
             "Probe_polar_angle_to_sample_normal":"AP_STGTILT",
             "Comment":"AP_COMMENT",
             "Neutralization_active_mode":"AP_IGN_NEUT_MODE",
-            "Data_type":"AP_DATATYPE",            
+            "Data_type":"AP_DATATYPE",
             "Analysis_chamber_pressure_when_measurement_finished":"AP_CHAMBER_PRESS"
             }
   columns_unique = list(dict.fromkeys(columns))
@@ -292,7 +294,7 @@ if __name__ == "__main__":
         if maxcolumn < tempcolumn + 1:
             maxcolumn = tempcolumn + 1
         metadata = conv(v, k, rawdata, metadata, len(rawdata.findall('meta[@key="{value}"]'.format(value=v)))-1, unitlist, template)
-        
+
   subnode = dom.createElement('column_num')
   subnode.appendChild(dom.createTextNode(str(maxcolumn)))
   metadata.appendChild(subnode)

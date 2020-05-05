@@ -6,7 +6,26 @@
 # This software is released under the MIT License.
 #-------------------------------------------------
 # coding: utf-8
+#__author__ = "nagao"
 
+"""phiaes_csv2graph.py
+
+This module creates a image data
+by creating a csv file of the PHI-AES data.
+
+Copyright (c) 2018, Data PlatForm Center, NIMS
+This software is released under the MIT License.
+
+Example
+-------
+
+    Parameters
+    ----------
+    inputfile : PHI AES csv data file
+
+    $ python phiaes_csv2graph.py [inputfile]
+
+"""
 
 __author__ = "nagao"
 __date__ = "$2017/03/21 11:16:02$"
@@ -26,7 +45,7 @@ def getKey(key, row):
         return row[1]
     else:
         return 0
-    
+
 def plotlygraph(xrevFlag, yrevFlag, title, data, fig):
     x_axis = 'false'
     y_axis = 'false'
@@ -50,7 +69,7 @@ def plotlygraph(xrevFlag, yrevFlag, title, data, fig):
 
 def is_japanese(titlestring):
     for ch in string:
-        name = unicodedata.name(ch) 
+        name = unicodedata.name(ch)
         if "CJK UNIFIED" in name or "HIRAGANA" in name or "KATAKANA" in name:
             return(True)
     return(False)
@@ -81,7 +100,7 @@ if jupytermode == True:
     from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
     import plotly.graph_objs as go
     init_notebook_mode(connected=True)
-    
+
 with open(readfile, 'r') as f:
     reader = csv.reader(f)
     line = 1
@@ -199,7 +218,7 @@ if len(title) > length:
     string = title[:length] + '...'
 else:
     string = title
-    
+
 if is_japanese(string) == True:
     plt.title(string, fontproperties=fp)
 else:

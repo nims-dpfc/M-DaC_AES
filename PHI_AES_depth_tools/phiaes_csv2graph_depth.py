@@ -7,6 +7,25 @@
 #-------------------------------------------------
 # coding: utf-8
 
+"""phiaes_csv2graph.py
+
+This module creates a image data
+by creating a csv file of the PHI-AES text file
+
+Copyright (c) 2018, Data PlatForm Center, NIMS
+This software is released under the MIT License.
+
+Example
+-------
+
+    Parameters
+    ----------
+    inputfile : PHI AES csv file
+
+    $ python phiaes_csv2graph.py [inputfile]
+
+"""
+
 __author__ = "nagao"
 __date__ = "$2017/03/21 11:16:02$"
 
@@ -20,10 +39,10 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import plotly.graph_objs as go
 import numpy as np
 from scipy import integrate
-from mpl_toolkits.mplot3d import Axes3D   
+from mpl_toolkits.mplot3d import Axes3D
 import codecs
 import unicodedata
-import matplotlib.ticker as ticker 
+import matplotlib.ticker as ticker
 
 def getKey(key, row):
     if row[0] == key:
@@ -338,7 +357,7 @@ for atom in titleList:
         ax3all.plot(x, y, zs=lasttime, zdir='y')
         lst = [lasttime] * len(x)
         z_d = pd.Series(lst)
-  
+
     index += 1
 if xrev:
     ax3all.invert_xaxis()
@@ -373,7 +392,7 @@ df3.plot()
 #    string = title[:length] + '...'
 #else:
 #    string = title
-    
+
 ax1 = df3.plot(x=0, legend=False, title=string, grid=True)
 ax1.yaxis.set_major_formatter(formatter)
 ax1.set_xlabel(df_head.loc['x','intensity'])
