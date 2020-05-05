@@ -1,5 +1,5 @@
 # -------------------------------------------------
-# txttorawXML_for_AES.py
+# phiaes_txttorawXML.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #

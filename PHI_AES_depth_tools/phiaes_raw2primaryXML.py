@@ -1,5 +1,5 @@
 # -------------------------------------------------
-# rawtoprimaryXML_for_PHI_AES.py
+# phiaes_raw2primaryXML.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #
