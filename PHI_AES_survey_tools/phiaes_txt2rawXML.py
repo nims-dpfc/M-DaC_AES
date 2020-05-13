@@ -1,12 +1,14 @@
 # -------------------------------------------------
-# txttorawXML_for_AES.py
+# phiaes_txt2rawXML_for_AES.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #
 # This software is released under the MIT License.
 # -------------------------------------------------
 # coding: utf-8
-"""txttorawXML_for_AES.py
+#__author__ = "nagao"
+
+"""phiaes_txt2rawXML_for_AES.py
 
 This module extracts raw parameter from
 PHI AES text file.
@@ -20,10 +22,10 @@ Example
     Parameters
     ----------
     inputfile : PHI AES text file
-    templatefile : template file for PHI AES raw Data
-    outputfile : output file
+    templatefile : template file for PHI AES raw parameter Data
+    outputfile : output file (primary parameter data file (XML))
 
-    $ python txttorawXML_for_AES.py [inputfile] [templatefile] [outputfile]
+    $ python phiaes_txt2rawXML.py [inputfile] [templatefile] [outputfile]
 
 """
 

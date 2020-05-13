@@ -1,10 +1,32 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
-# coding: utf-8
+# -------------------------------------------------
+# phiaes_txt2csv.py
 #
+# Copyright (c) 2018, Data PlatForm Center, NIMS
+#
+# This software is released under the MIT License.
+# -------------------------------------------------
+# coding: utf-8
 #__author__ = "nagao"
 #__date__ = "$2017/03/09 17:18:43$"
+
+"""phiaes_txt2csv.py
+
+This module extracts csv data file from
+PHI AES text file.
+
+Copyright (c) 2018, Data PlatForm Center, NIMS
+This software is released under the MIT License.
+
+Example
+-------
+
+    Parameters
+    ----------
+    inputfile : PHI AES text file
+
+    $ python phiaes_txt2csv.py [inputfile]
+
+"""
 
 from __future__ import print_function
 from __future__ import unicode_literals

@@ -1,12 +1,14 @@
 # -------------------------------------------------
-# rawtoprimaryXML_for_PHI_AES.py
+# phiaes_raw2primaryXML.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #
 # This software is released under the MIT License.
 # -------------------------------------------------
 # coding: utf-8
-"""rawtoprimaryXML_for_PHI_AES.py
+#__author__ = "nagao"
+
+"""phiaes_raw2primary.py
 
 This module extracts primary parameter from
 PHI AES raw file.
@@ -19,11 +21,11 @@ Example
 
     Parameters
     ----------
-    inputfile : PHI AES raw file
-    templatefile : template file for PHI AES primary Data
-    outputfile : output file
+    inputfile : PHI AES raw parameter data file (XML)
+    templatefile : template file for PHI AES primary meta Data
+    outputfile : output file (primary parameter data XML file)
 
-    $ python txttorawXML_for_PHI_AES.py [inputfile] [templatefile] [outputfile]
+    $ python phiaes_raw2primaryXML.py [inputfile] [templatefile] [outputfile]
 
 """
 import argparse
@@ -241,7 +243,7 @@ if __name__ == "__main__":
                 "Mode_of_signal_detection":"SpectralRegDef",
                 "Peak_Sweep_Number":"SpectralRegDef2",
                 "Comment":"FileDesc"}
-    
+
     columns_unique = list(dict.fromkeys(columns))
     unitlist = []
     maxcolumn = 0

@@ -6,9 +6,11 @@
 # This software is released under the MIT License.
 #-------------------------------------------------
 # coding: utf-8
+#__author__ = "nagao"
+
 """jampcsv2graph.py
 
-This module creates a image data 
+This module creates a image data
 by creating a csv file of the JAMP series
 by JEOL.
 
@@ -26,6 +28,7 @@ Example
     $ python jampcsv2graph.py [inputfile]
 
 """
+
 __package__ = "M-DaC_AES/PHI_JEOL_AES_tools"
 __version__ = "1.0.0"
 
@@ -56,7 +59,7 @@ def plotlygraph(title, data, fig, xaxis, yaxis):
 
 def is_japanese(string):
     for ch in string:
-        name = unicodedata.name(ch) 
+        name = unicodedata.name(ch)
         if "CJK UNIFIED" in name or "HIRAGANA" in name or "KATAKANA" in name:
             return(True)
     return(False)
@@ -94,7 +97,7 @@ def makegraph(df, xaxis, yaxis, col, title):
 
 if __name__ == "__main__":
     fp = FontProperties(fname=r'C:\WINDOWS\Fonts\meiryo.ttc', size=14)
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument("file_path", help="input file")
     parser.add_argument("--encoding", default="utf_8")

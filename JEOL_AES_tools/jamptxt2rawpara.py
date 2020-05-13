@@ -1,15 +1,17 @@
 # -------------------------------------------------
-# txttorawXML_for_AES.py
+# jamptxt2rawpara.py
 #
 # Copyright (c) 2018, Data PlatForm Center, NIMS
 #
 # This software is released under the MIT License.
 # -------------------------------------------------
 # coding: utf-8
-"""txttorawXML_for_AES.py
 
-This module extracts primary parameter from
-JEOL para file.
+
+"""jamptxt2rawpara.py
+
+This module extracts raw parameter from
+JEOL text file.
 
 Copyright (c) 2018, Data PlatForm Center, NIMS
 This software is released under the MIT License.
@@ -19,11 +21,11 @@ Example
 
     Parameters
     ----------
-    inputfile : JEOL para file
-    templatefile : template file for JEOL para file
-    outputfile : output file
+    inputfile : JEOL JAMP AES text data file
+    templatefile : template file for JEOL raw parameter file
+    outputfile : output file (raw parameter file (XML))
 
-    $ python txttorawXML_for_AES.py [inputfile] [templatefile] [outputfile]
+    $ python jamptxt2rawpara.py [inputfile] [templatefile] [outputfile]
 
 """
 import argparse
@@ -59,7 +61,7 @@ if __name__ == "__main__":
   print_option = options.stdout
 
   template = ET.parse(templatefile)
-  columns = []  
+  columns = []
   metas = template.findall('meta')
   for meta in metas:
     columns.append(meta.attrib["key"])
